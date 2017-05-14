@@ -28,7 +28,7 @@ If you want the programs in the container access host machine's X11 server to di
     --user=$(id -u) \
     --env="DISPLAY" \
     --workdir="/home/$USER" \
-    pyoptix:4.0.2 /bin/bash
+    pyoptix:4.1.0 /bin/bash
 
 
 [web site]: https://developer.nvidia.com/designworks/optix/download
