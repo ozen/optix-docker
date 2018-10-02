@@ -1,0 +1,6 @@
+ARG CUDA_IMAGE_TAG=10.0-devel-ubuntu16.04
+FROM nvidia/cuda:{CUDA_IMAGE_TAG}
+MAINTAINER Yigit Ozen
+ARG OPTIX_VERSION=5.1.0
+ADD NVIDIA-OptiX-SDK-${OPTIX_VERSION}-linux64 /usr/local/optix
+ENV LD_LIBRARY_PATH /usr/local/optix/lib64:${LD_LIBRARY_PATH}
