@@ -4,8 +4,8 @@ As of this writing, OptiX is free to use within any application, including comme
 
 The Dockerfile defines 2 arguments:
 
-	1. CUDA_IMAGE_TAG e.g. `10.0-runtime-ubuntu18.04`, `9.2-devel-ubuntu16.04`, check [CUDA Docker Repository].
-	2. OPTIX_VERSION e.g. `5.1.0`, `4.1.1`.
+1. CUDA_IMAGE_TAG e.g. `10.0-runtime-ubuntu18.04`, `9.2-devel-ubuntu16.04`, check [CUDA Docker Repository].
+2. OPTIX_VERSION e.g. `5.1.0`, `4.1.1`.
 
 Example build command:
 
