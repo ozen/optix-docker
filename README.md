@@ -10,7 +10,7 @@ The Dockerfile defines 2 arguments:
 Example build command:
 
 	cp -R /path/to/NVIDIA-OptiX-SDK-5.1.0-linux64 .
-	docker build -t optix --build-arg CUDA_IMAGE_TAG=10.0-runtime-ubuntu18.04 build-arg OPTIX_VERSION=5.1.0 .
+	docker build -t optix --build-arg CUDA_IMAGE_TAG=10.0-runtime-ubuntu18.04 --build-arg OPTIX_VERSION=5.1.0 .
 
 It is recommended to use [nvidia-docker] to run GPU-enabled containers.
 
